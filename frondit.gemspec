@@ -19,12 +19,12 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version = '>= 2.2'
   gem.require_paths = %w(lib)
 
-  gem.add_runtime_dependency 'activesupport', '~> 5.0', '>= 5.0.0'
-  gem.add_runtime_dependency 'gon', '~> 6.2', '>= 6.2.0'
-  gem.add_runtime_dependency 'pundit', '~> 1.1.0', '>= 1.1.0'
+  gem.add_runtime_dependency 'activesupport', '>= 5.0.0'
+  gem.add_runtime_dependency 'gon', '>= 6.2.0'
+  gem.add_runtime_dependency 'pundit', '>= 1.1.0'
 
-  gem.add_development_dependency "bundler", "~> 1.16"
-  gem.add_development_dependency "rake", "~> 10.0"
+  gem.add_development_dependency "bundler", ">= 1.16"
+  gem.add_development_dependency "rake", ">= 10.0"
   gem.add_development_dependency "rspec"
-  gem.add_development_dependency "rubocop", "~> 0.50"
+  gem.add_development_dependency "rubocop"
 end
